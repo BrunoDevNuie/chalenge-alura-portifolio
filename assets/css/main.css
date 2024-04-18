@@ -1,0 +1,213 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-sizing: border-box;
+}
+
+header {
+  height: 85px;
+}
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.nav-menu>ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sobre-mim {
+  text-align: center;
+  padding: 100px 50px;
+  background-image: url(https://i.gifer.com/J4o.gif);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px #1b0c0459;
+  margin-bottom: 20px;
+}
+
+.orange-text {
+  color: #ff6a22;
+}
+
+.sobre-mim>h1 {
+  margin-bottom: 30px;
+}
+
+.sobre-mim p {
+  margin-bottom: 20px;
+}
+
+.sobre-mim>button,
+.button {
+  background-color: #ff6a22;
+  border-radius: 5px;
+  line-height: 1.5rem;
+  padding: 0 20px;
+  border: none;
+  box-shadow: 1px 1px 1px rgb(77, 75, 75);
+  margin: 20px 10px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.stacks {
+  background-color: #2268ff25;
+  padding: 50px 0;
+}
+
+.stacks-lista {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stacks>h2,
+.projetos>h2,
+.contato>h2,
+.formacao-academica>h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.center {
+  align-self: center;
+}
+
+.white img {
+  background-color: white;
+}
+
+.stacks-lista-item img {
+  width: 50px;
+
+}
+
+.stacks-lista-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.none {
+  background-color: black;
+}
+
+.formacao-academica {
+  padding: 50px;
+  background-color: #2268ff25;
+}
+
+.formacao-academica_lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.formacao-academica_lista_item {
+  background-color: rgba(0, 0, 0, 0.329);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  padding: 20px;
+  gap: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px black;
+
+}
+
+.formacao-academica_lista_item img {
+  width: 200px;
+  align-self: center;
+}
+
+.projetos-lista {
+  padding: 0 50px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projetos-lista-item {
+  flex-grow: 1;
+  margin-bottom: 40px;
+}
+
+.contato {
+  background-image: url(https://i.gifer.com/J4o.gif);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 50px;
+}
+
+.titulo-form {
+  align-self: center;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.formulario {
+  border-radius: 30px;
+  background-color: #ffffff0e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgba(90, 89, 89, 0.884);
+}
+
+.form-input {
+  background-color: rgba(128, 128, 128, 0.301);
+  border: none;
+  box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.466);
+  border-radius: 2px;
+  display: block;
+  margin-top: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(231, 224, 224);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  border-top: 1px solid black;
+  box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.466);
+}
+
+.paragrafo-footer {
+  line-height: 2rem;
+}
+
+.asjust-padding {
+  padding: 10px 20px;
+}
